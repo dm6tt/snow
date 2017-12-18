@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="comment" label="Comment" language="en" table="x_153803_netapp_vlan_area">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>comment</element>
+            <help/>
+            <hint/>
+            <label>Comment</label>
+            <language>en</language>
+            <name>x_153803_netapp_vlan_area</name>
+            <plural>Comments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-10 17:50:08</sys_created_on>
+            <sys_id>cc3b66c80fc3030008a587ece1050ebf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Comment</sys_name>
+            <sys_package display_value="NetApp" source="x_153803_netapp">568a2a880fc3030008a587ece1050e8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NetApp">568a2a880fc3030008a587ece1050e8e</sys_scope>
+            <sys_update_name>sys_documentation_x_153803_netapp_vlan_area_comment_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-10 17:50:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

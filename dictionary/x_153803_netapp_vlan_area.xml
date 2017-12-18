@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="VLAN Area" max_length="40" name="x_153803_netapp_vlan_area" type="collection">
+        <element label="Comment" max_length="500" name="comment" type="string"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Read only" max_length="40" name="read_only" type="boolean"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
+    </element>
+</database>

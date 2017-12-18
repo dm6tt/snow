@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Default access control on x_153803_netapp_vlan_area</description>
+        <name>x_153803_netapp_vlan_area</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[// answer=true;
+// var vlanArea=current.name;
+var user= gs.getUser();
+//query VLAN_Area_Access wit vlan_area from the actual record
+var varea= new GlideRecord('x_153803_netapp_vlan_area_access');
+varea.addQuery('vlan_area',current.sys_id);
+varea.query();
+gs.info('ACL VAREA: Start query vlanArea:'+current.name);
+answer=false;
+// Loop for the gathered group, check in User isMemberOf
+while(varea.next()) {
+	if (user.isMemberOf(varea.group.name.toString())) {
+		gs.info('ACL VAREA: User '+ user.name +' has access to VLAN Area '+varea.vlan_area.name + ' via Group '+varea.group.name);
+		// addInfoMessage genauer anschauen
+		gs.addInfoMessage('ACL VArea: User '+user.name+' has access to VLAN Area '+varea.vlan_area.name + ' via Group '+varea.group.name);
+		answer=true;
+		break;
+	}
+}]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-10 17:50:08</sys_created_on>
+        <sys_id>732b66c80fc3030008a587ece1050e9b</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>x_153803_netapp_vlan_area</sys_name>
+        <sys_package display_value="NetApp" source="x_153803_netapp">568a2a880fc3030008a587ece1050e8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NetApp">568a2a880fc3030008a587ece1050e8e</sys_scope>
+        <sys_update_name>sys_security_acl_732b66c80fc3030008a587ece1050e9b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-18 21:52:30</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="VLAN" max_length="40" name="x_153803_netapp_vlan" type="collection">
+        <element dependent="table" dependent_on_field="table" label="Cond" max_length="4000" name="cond" type="conditions" use_dependent_field="true"/>
+        <element label="Read only" max_length="40" name="read_only" type="boolean"/>
+        <element choice="3" default="Data" label="Usage" mandatory="true" max_length="40" name="usage" reference="x_153803_netapp_vlan_type" type="reference">
+            <choice/>
+        </element>
+        <element label="VLAN Area" mandatory="true" max_length="32" name="vlan_area" reference="x_153803_netapp_vlan_area" reference_qual="read_only=false^EQ" reference_qual_condition="read_only=false^EQ" type="reference"/>
+        <element label="VLAN ID" mandatory="true" max_length="40" name="vlan_id" type="integer"/>
+        <index name="index">
+            <element name="vlan_id"/>
+            <element name="vlan_area"/>
+        </index>
+        <index name="index2">
+            <element name="vlan_area"/>
+        </index>
+    </element>
+</database>
