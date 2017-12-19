@@ -2,7 +2,7 @@
 <record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="x_153803_netapp.vlan_user" name="x_153803_netapp.vlan_user">479bee880fc3030008a587ece1050e50</role>
+        <role display_value="x_153803_netapp.vlan_user_read" name="x_153803_netapp.vlan_user_read">479bee880fc3030008a587ece1050e50</role>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-12-10 17:52:00</sys_created_on>

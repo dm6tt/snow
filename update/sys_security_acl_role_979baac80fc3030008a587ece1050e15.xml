@@ -14,7 +14,7 @@
         <sys_update_name>sys_security_acl_role_979baac80fc3030008a587ece1050e15</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-12-10 17:52:00</sys_updated_on>
-        <sys_user_role display_value="x_153803_netapp.vlan_user" name="x_153803_netapp.vlan_user">479bee880fc3030008a587ece1050e50</sys_user_role>
+        <sys_user_role display_value="x_153803_netapp.vlan_user_read" name="x_153803_netapp.vlan_user_read">479bee880fc3030008a587ece1050e50</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>

@@ -7,19 +7,19 @@
         <elevated_privilege>false</elevated_privilege>
         <grantable>true</grantable>
         <includes_roles/>
-        <name>x_153803_netapp.vlan_user_read</name>
-        <suffix>vlan_user_read</suffix>
+        <name>x_153803_netapp.vlan_area_user_write</name>
+        <suffix>vlan_area_user_write</suffix>
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-12-10 17:52:00</sys_created_on>
-        <sys_id>479bee880fc3030008a587ece1050e50</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>x_153803_netapp.vlan_user_read</sys_name>
+        <sys_created_on>2017-12-19 11:28:21</sys_created_on>
+        <sys_id>5b1a63360f07c30008a587ece1050eec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_153803_netapp.vlan_area_user_write</sys_name>
         <sys_package display_value="NetApp" source="x_153803_netapp">568a2a880fc3030008a587ece1050e8e</sys_package>
         <sys_policy/>
         <sys_scope display_value="NetApp">568a2a880fc3030008a587ece1050e8e</sys_scope>
-        <sys_update_name>sys_user_role_479bee880fc3030008a587ece1050e50</sys_update_name>
+        <sys_update_name>sys_user_role_5b1a63360f07c30008a587ece1050eec</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-19 10:45:53</sys_updated_on>
+        <sys_updated_on>2017-12-19 11:28:21</sys_updated_on>
     </sys_user_role>
 </record_update>

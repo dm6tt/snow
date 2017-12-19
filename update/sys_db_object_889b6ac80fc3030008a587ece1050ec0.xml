@@ -33,7 +33,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-12-17 23:06:51</sys_updated_on>
         <update_access>true</update_access>
-        <user_role display_value="x_153803_netapp.vlan_user" name="x_153803_netapp.vlan_user">479bee880fc3030008a587ece1050e50</user_role>
+        <user_role display_value="x_153803_netapp.vlan_user_read" name="x_153803_netapp.vlan_user_read">479bee880fc3030008a587ece1050e50</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>
